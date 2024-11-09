@@ -1,0 +1,25 @@
+.start-home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 2rem; /* Add padding for additional space above the footer */
+  }
+  
+  .start-home > div {
+    flex: 1; /* Makes the main content area take up available space */
+  }
+  
+  .mainPageImg {
+    display: block;
+    margin: auto;
+    width: 20rem;
+  }
+  
+  footer {
+    margin-top: auto; /* Keeps the footer at the bottom */
+  }
+  .mainPageImg {
+    width: 100%; /* Ensures the image spans the entire width of the carousel */
+    height: 500px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fills the area without distorting */
+  }
