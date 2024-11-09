@@ -12,7 +12,7 @@ function HomePage() {
     const fetchEstates = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8080/api/v1/estate/get-estates"
+          "https://be-m062.onrender.com/api/v1/estate/get-estates"
         );
         console.log(response);
         setEstates(response.data.estates);

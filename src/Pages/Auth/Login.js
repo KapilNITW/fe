@@ -16,7 +16,7 @@ function Login() {
     event.preventDefault();
     try {
       const res_API = await axios.post(
-        "http://localhost:8080/api/v1/auth/login",
+        "https://be-m062.onrender.com/api/v1/auth/login",
         {
           email,
           password,
